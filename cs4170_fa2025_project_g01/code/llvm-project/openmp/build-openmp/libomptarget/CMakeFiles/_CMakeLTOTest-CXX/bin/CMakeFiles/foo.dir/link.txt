@@ -1,0 +1,2 @@
+"/users/PCS0294/hvuong/local/llvm-18.1.8/bin/llvm-ar" cr libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+"/users/PCS0294/hvuong/local/llvm-18.1.8/bin/llvm-ranlib" libfoo.a

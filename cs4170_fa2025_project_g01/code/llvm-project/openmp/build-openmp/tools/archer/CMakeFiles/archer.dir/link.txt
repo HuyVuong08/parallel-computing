@@ -1,0 +1,1 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/clang++ -fPIC  -Wall -fcolor-diagnostics -Wcast-qual -Wformat-pedantic -Wimplicit-fallthrough -Wsign-compare -Wno-enum-constexpr-conversion -Wno-extra -Wno-pedantic -fno-semantic-interposition -fdata-sections -O3 -DNDEBUG -shared -Wl,-soname,libarcher.so -o libarcher.so "CMakeFiles/archer.dir/ompt-tsan.cpp.o"  -ldl 

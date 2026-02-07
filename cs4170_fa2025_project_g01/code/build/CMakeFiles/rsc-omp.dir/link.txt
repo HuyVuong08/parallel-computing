@@ -1,0 +1,1 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/clang++ -O3 -O3 -DNDEBUG -L/users/PCS0294/hvuong/local/libomp/lib -L/users/PCS0294/hvuong/local/libomp/lib -fopenmp -fopenmp-targets=nvptx64-nvidia-cuda  -lpthread "CMakeFiles/rsc-omp.dir/src/rsc-omp/main.cpp.o" "CMakeFiles/rsc-omp.dir/src/rsc-omp/model_eval.cpp.o" "CMakeFiles/rsc-omp.dir/rsc-omp-model_fitting.cpp.o" -o rsc-omp 

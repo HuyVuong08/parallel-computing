@@ -1,0 +1,1 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/clang++ -flto=thin CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a 

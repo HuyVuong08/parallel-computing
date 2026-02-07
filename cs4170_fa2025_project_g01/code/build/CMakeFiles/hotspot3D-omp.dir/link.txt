@@ -1,0 +1,1 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/clang++ -O3 -O3 -DNDEBUG -L/users/PCS0294/hvuong/local/libomp/lib -L/users/PCS0294/hvuong/local/libomp/lib -fopenmp -fopenmp-targets=nvptx64-nvidia-cuda  "CMakeFiles/hotspot3D-omp.dir/src/hotspot3D-omp/3D.cpp.o" "CMakeFiles/hotspot3D-omp.dir/src/hotspot3D-omp/3D_helper.cpp.o" -o hotspot3D-omp 

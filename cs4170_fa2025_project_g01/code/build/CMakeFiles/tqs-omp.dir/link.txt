@@ -1,0 +1,1 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/clang++ -O3 -O3 -DNDEBUG -L/users/PCS0294/hvuong/local/libomp/lib -L/users/PCS0294/hvuong/local/libomp/lib -fopenmp -fopenmp-targets=nvptx64-nvidia-cuda  "CMakeFiles/tqs-omp.dir/src/tqs-omp/main.cpp.o" "CMakeFiles/tqs-omp.dir/src/tqs-omp/kernel.cpp.o" "CMakeFiles/tqs-omp.dir/src/tqs-omp/host_task.cpp.o" -o tqs-omp 

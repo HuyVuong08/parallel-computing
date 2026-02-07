@@ -1,0 +1,2 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/llvm-ar qc libnicslu-util.a "CMakeFiles/nicslu-util.dir/src/slu-cuda/src/nicslu/util/nicslu_readfile.c.o"
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/llvm-ranlib libnicslu-util.a

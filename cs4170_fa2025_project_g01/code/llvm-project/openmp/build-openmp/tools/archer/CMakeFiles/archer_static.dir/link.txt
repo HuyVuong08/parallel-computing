@@ -1,0 +1,2 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/llvm-ar qc libarcher_static.a "CMakeFiles/archer_static.dir/ompt-tsan.cpp.o"
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/llvm-ranlib libarcher_static.a

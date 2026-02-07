@@ -1,0 +1,1 @@
+python3: can't open file '/users/PCS0294/hvuong/parallel-computing/cs4170_fa2025_project_g01/code/download/./gatherData.py': [Errno 2] No such file or directory

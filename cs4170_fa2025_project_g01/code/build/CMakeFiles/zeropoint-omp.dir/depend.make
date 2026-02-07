@@ -1,0 +1,2 @@
+# Empty dependencies file for zeropoint-omp.
+# This may be replaced when dependencies are built.

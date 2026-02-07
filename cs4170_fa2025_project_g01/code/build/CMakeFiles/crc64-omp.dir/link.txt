@@ -1,0 +1,1 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/clang++ -O3 -O3 -DNDEBUG -L/users/PCS0294/hvuong/local/libomp/lib -L/users/PCS0294/hvuong/local/libomp/lib -fopenmp -fopenmp-targets=nvptx64-nvidia-cuda  "CMakeFiles/crc64-omp.dir/src/crc64-omp/CRC64.cpp.o" "CMakeFiles/crc64-omp.dir/src/crc64-omp/CRC64Test.cpp.o" -o crc64-omp 

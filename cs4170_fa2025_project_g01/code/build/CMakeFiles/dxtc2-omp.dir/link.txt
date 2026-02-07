@@ -1,0 +1,1 @@
+/users/PCS0294/hvuong/local/llvm-18.1.8/bin/clang++ -O3 -O3 -DNDEBUG -L/users/PCS0294/hvuong/local/libomp/lib -L/users/PCS0294/hvuong/local/libomp/lib -fopenmp -fopenmp-targets=nvptx64-nvidia-cuda  "CMakeFiles/dxtc2-omp.dir/src/dxtc2-omp/main.cpp.o" "CMakeFiles/dxtc2-omp.dir/src/dxtc2-omp/shrUtils.cpp.o" "CMakeFiles/dxtc2-omp.dir/src/dxtc2-omp/block.cpp.o" -o dxtc2-omp 
