@@ -1,0 +1,8 @@
+#PBS -l nodes=4:ppn=1
+#PBS -m ae
+#PBS -j oe
+#PBS -A PCS0246
+#PBS -n jobScript
+cd $PBS_O_WORKDIR
+make all
+mpiexec -n 4 MPI > $PBS_O_WORKDIR/results.csv

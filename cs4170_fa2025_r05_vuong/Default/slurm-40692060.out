@@ -1,0 +1,17 @@
+rm -rf  ./src/CStopWatch.o  ./src/main.o ./src/CStopWatch.d  ./src/main.d ./src/CStopWatch.d  ./src/main.d OpenMP
+ 
+Building file: ../src/CStopWatch.cpp
+Invoking: GCC C++ Compiler
+g++ -I../src -O2 -g -Wall -c -fmessage-length=0 -std=c++17  -fopenmp   -MMD -MP -MF"src/CStopWatch.d" -MT"src/CStopWatch.d" -o "src/CStopWatch.o" "../src/CStopWatch.cpp"
+Finished building: ../src/CStopWatch.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -I../src -O2 -g -Wall -c -fmessage-length=0 -std=c++17  -fopenmp   -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OpenMP
+Invoking: GCC C++ Linker
+g++ -o OpenMP -fopenmp   ./src/CStopWatch.o  ./src/main.o  
+Finished building target: OpenMP
+ 

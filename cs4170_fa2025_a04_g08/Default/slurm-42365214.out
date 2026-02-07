@@ -1,0 +1,68 @@
+rm -f ./matrix-multiplication ./MPI
+icpc -std=c++17 -O3 -Wall -Wextra -qopenmp -o ./matrix-multiplication ../src/matrix-multiplication.cpp
+icpc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+remark #11074: Inlining inhibited by limit max-size 
+remark #11074: Inlining inhibited by limit max-total-size 
+remark #11076: To get full report use -qopt-report=4 -qopt-report-phase ipo
+Running OpenMP matrix-multiplication benchmark
+N=500 Threads=1 mean_s=0.039073 std_s=0.000468 validate=OK
+N=500 Threads=2 mean_s=0.020565 std_s=0.000635 validate=OK
+N=500 Threads=3 mean_s=0.013619 std_s=0.000550 validate=OK
+N=500 Threads=4 mean_s=0.010375 std_s=0.000526 validate=OK
+N=500 Threads=5 mean_s=0.008523 std_s=0.000559 validate=OK
+N=500 Threads=6 mean_s=0.007159 std_s=0.000533 validate=OK
+N=500 Threads=7 mean_s=0.006236 std_s=0.000524 validate=OK
+N=500 Threads=8 mean_s=0.005600 std_s=0.000538 validate=OK
+N=500 Threads=9 mean_s=0.005098 std_s=0.000531 validate=OK
+N=500 Threads=10 mean_s=0.004674 std_s=0.000518 validate=OK
+N=1000 Threads=1 mean_s=0.247321 std_s=0.002697 validate=OK
+N=1000 Threads=2 mean_s=0.125842 std_s=0.000466 validate=OK
+N=1000 Threads=3 mean_s=0.084913 std_s=0.000579 validate=OK
+N=1000 Threads=4 mean_s=0.064586 std_s=0.000628 validate=OK
+N=1000 Threads=5 mean_s=0.052430 std_s=0.000611 validate=OK
+N=1000 Threads=6 mean_s=0.044398 std_s=0.000641 validate=OK
+N=1000 Threads=7 mean_s=0.038600 std_s=0.000658 validate=OK
+N=1000 Threads=8 mean_s=0.034251 std_s=0.000682 validate=OK
+N=1000 Threads=9 mean_s=0.030815 std_s=0.000694 validate=OK
+N=1000 Threads=10 mean_s=0.027715 std_s=0.000878 validate=OK
+N=1500 Threads=1 mean_s=0.752639 std_s=0.004372 validate=OK
+N=1500 Threads=2 mean_s=0.374388 std_s=0.002775 validate=OK
+N=1500 Threads=3 mean_s=0.249674 std_s=0.000910 validate=OK
+N=1500 Threads=4 mean_s=0.188220 std_s=0.000505 validate=OK
+N=1500 Threads=5 mean_s=0.151198 std_s=0.000508 validate=OK
+N=1500 Threads=6 mean_s=0.126537 std_s=0.000637 validate=OK
+N=1500 Threads=7 mean_s=0.109046 std_s=0.000758 validate=OK
+N=1500 Threads=8 mean_s=0.095172 std_s=0.000475 validate=OK
+N=1500 Threads=9 mean_s=0.084764 std_s=0.000181 validate=OK
+N=1500 Threads=10 mean_s=0.077004 std_s=0.000855 validate=OK
+N=2000 Threads=1 mean_s=1.698499 std_s=0.012439 validate=OK
+N=2000 Threads=2 mean_s=0.854748 std_s=0.016251 validate=OK
+N=2000 Threads=3 mean_s=0.570733 std_s=0.005253 validate=OK
+N=2000 Threads=4 mean_s=0.430631 std_s=0.003982 validate=OK
+N=2000 Threads=5 mean_s=0.345244 std_s=0.003907 validate=OK
+N=2000 Threads=6 mean_s=0.288897 std_s=0.003457 validate=OK
+N=2000 Threads=7 mean_s=0.249169 std_s=0.003520 validate=OK
+N=2000 Threads=8 mean_s=0.219337 std_s=0.003477 validate=OK
+N=2000 Threads=9 mean_s=0.196007 std_s=0.004212 validate=OK
+N=2000 Threads=10 mean_s=0.177068 std_s=0.003225 validate=OK
+N=2500 Threads=1 mean_s=3.362688 std_s=0.021405 validate=OK
+N=2500 Threads=2 mean_s=1.669893 std_s=0.010841 validate=OK
+N=2500 Threads=3 mean_s=1.110309 std_s=0.005505 validate=OK
+N=2500 Threads=4 mean_s=0.840246 std_s=0.004535 validate=OK
+N=2500 Threads=5 mean_s=0.671677 std_s=0.003825 validate=OK
+N=2500 Threads=6 mean_s=0.561593 std_s=0.003175 validate=OK
+N=2500 Threads=7 mean_s=0.486727 std_s=0.003180 validate=OK
+N=2500 Threads=8 mean_s=0.427753 std_s=0.002760 validate=OK
+N=2500 Threads=9 mean_s=0.380814 std_s=0.003062 validate=OK
+N=2500 Threads=10 mean_s=0.344196 std_s=0.002341 validate=OK
+N=3000 Threads=1 mean_s=5.915371 std_s=0.033292 validate=OK
+N=3000 Threads=2 mean_s=2.933931 std_s=0.009713 validate=OK
+N=3000 Threads=3 mean_s=1.980084 std_s=0.008635 validate=OK
+N=3000 Threads=4 mean_s=1.482542 std_s=0.007521 validate=OK
+N=3000 Threads=5 mean_s=1.192193 std_s=0.009922 validate=OK
+N=3000 Threads=6 mean_s=0.993093 std_s=0.004461 validate=OK
+N=3000 Threads=7 mean_s=0.849078 std_s=0.005895 validate=OK
+N=3000 Threads=8 mean_s=0.746607 std_s=0.004002 validate=OK
+N=3000 Threads=9 mean_s=0.667434 std_s=0.003406 validate=OK
+N=3000 Threads=10 mean_s=0.605710 std_s=0.003346 validate=OK
+Results written to ../data/runs.csv by matrix-multiplication.cpp
